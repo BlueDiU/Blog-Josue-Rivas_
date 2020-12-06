@@ -34,9 +34,9 @@ header p {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(2, 21rem);
+  grid-template-columns: repeat(3, 21rem);
   justify-content: start;
-  gap: 80px;
+  gap: 70px;
 }
 
 .card {
@@ -55,8 +55,8 @@ header p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 4.rem;
-  padding-right: 4.rem;
+  /* padding-left: 4rem;
+  padding-right: 4rem; */
   text-align: center;
 }
 
@@ -67,9 +67,9 @@ img {
 
 a {
   background-color: transparent;
-  border:1px solid #1e608b;
+  border: 1px solid #1e608b;
   color: #1e608b;
-  text-decoration:none;
+  text-decoration: none;
   padding: 1rem;
   width: inherit;
   font-size: 19px;
